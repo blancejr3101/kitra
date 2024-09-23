@@ -1,0 +1,25 @@
+{
+  "name": "kitra-serino3",
+  "version": "1.0.0",
+  "description": "Kitra is a game where users can collect treasures in a given latitude and longitude.",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "migrate-data": "sequelize-cli db:migrate && sequelize-cli db:seed:all"
+  },
+  "author": "John Ray Blance",
+  "license": "ISC",
+  "devDependencies": {
+    "body-parser": "^1.20.3",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0",
+    "geolib": "^3.3.4",
+    "nodemon": "^3.1.7"
+  },
+  "dependencies": {
+    "joi": "^17.13.3",
+    "mysql2": "^2.3.0",
+    "sequelize": "^6.37.3",
+    "sequelize-cli": "^6.6.2"
+  }
+}
