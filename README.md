@@ -104,7 +104,12 @@ http://localhost:3000/api/treasure/hunt
 }
 ```
 
+### bonus endpoint Get all users
+```bash
+--request Get /
+http://localhost:3000/api/user/getAllUsers
 
+```
 
 ### bonus endpoint Find User By id
 
